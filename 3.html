@@ -3,6 +3,15 @@
 <head>
   <title>WEB1 - Piglet</title>
   <meta charset="utf-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GA_MEASUREMENT_ID');
+</script>
 </head>
 
 <body>
@@ -18,5 +27,25 @@
   <p><a href="https://en.wikipedia.org/wiki/Piglet_(Winnie-the-Pooh)" target="_blank" title="piggy">Piglet</a> is introduced in the text from <strong>Chapter III</strong> of Winnie-the-Pooh, although he is shown earlier in one of the illustrations for Chapter II. He also appears in Chapters V, VI, VII, VIII, IX, and X, as well as every chapter of The House at Pooh Corner. Piglet is best friends with Pooh and is also especially close to Christopher Robin and the rest of the main characters.</p>
   <img src="piglet.png" width="100%">
   <p style="margin-top:40px;">Although he is a "Very Small Animal" of a generally timid disposition, he tries to be brave and on occasion conquers his fears.</p>
+  <p><div id="disqus_thread"></div>
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web1-swhii1jvrx.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </p>
 </body>
 </html>
